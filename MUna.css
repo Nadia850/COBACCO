@@ -1,0 +1,247 @@
+body{
+
+  background:white;
+  margin: 0;
+  padding: 0;
+
+}
+.container{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  background-color: white;
+}
+.header{
+  width: 900px;
+  height: 120px;
+  font-family: arial;
+  font-size: 18px;
+}
+.header h3{
+text-align:center;
+font-family: italic;
+font-size: 26px;
+}
+.logo{
+  width: 300px;
+  float: left;
+}
+.logo img{
+  height: 100px;
+  width: 140px;
+}
+.soco{
+  float:right;
+  margin: 0px;
+  padding: 0px;
+}
+.soco h3{
+  margin-top:-60px;
+  font-size: 2px;
+}
+.soco h3 a{
+  font-size: 14px;
+}
+
+.menu{
+      background-color:lightblue;
+      width: 100%;
+      height: 50px;
+      display: block;}
+
+    .menu ul{
+      list-style: none;
+      margin:0;
+    }
+    
+    .menu ul li{
+      width: 150px;
+     float:left;
+      font-size: 17px;
+      line-height: 50px;
+      font-family: arial;
+      text-align: center;
+      position: relative;/*this works for drop down to put them down*/ }
+
+    .menu ul li a{
+      text-decoration: none;
+      color: black;
+      display: block;}
+
+    .menu ul li a:hover{
+     height: auto;
+      background-color: #3383ff;
+      color:white;
+      margin: auto;
+
+  }
+
+.menu ul li ul li{
+ background-color:white;
+ 
+  display:none;
+ width: 180px;
+margin: 0px;
+text-align: center;
+cursor: pointer; 
+
+}
+.menu ul li:hover ul li{
+  display:block; /* or display block */
+ }
+.menu ul li:visited ul li{
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+.last{
+  background-color:lightblue;
+      font-size: 16px;
+      height: auto;
+    padding: 40px;
+
+      
+}
+    .last1{
+      width: 450px;
+      height: 300px;
+      float: left;
+      text-align: justify;
+      
+
+    }
+                      
+ .last1 h2{
+      font-family: arial;
+
+    }
+   
+.class2 {
+
+  text-align: justify;
+color: black;
+font-family: arial;
+
+}
+
+.vs{
+
+font-family: arial;
+
+}
+.vs h2 {
+  font-size: 22px;
+  color:#008080;
+margin: 22px;
+  padding: 22px;
+  }
+  .vs p{
+    font-size: 20px;
+    margin: 22px;
+  padding: 22px;
+  }
+
+
+.cont {
+  font-family: arial;
+  font-size: 20px;
+  width: auto;
+  height: auto;
+ text-align: center;
+}
+.cont h1{
+  text-align: center;
+  font-size: 24px;
+margin-bottom: 0px;
+}
+.cont p{
+  text-align: center;
+  font-family: arial;
+ 
+}
+
+
+    .footer {
+
+  width: 100%;
+  height: 100px;
+  background-color:lightblue;
+  padding:auto;
+  margin:auto;
+  
+
+}
+.footer p{
+  margin:0;
+  padding:15px;
+  font-family: arial;
+  font-size: 16px;
+  color:black;
+
+
+}
+
+.main{
+  width: 95%;
+  font-size: 16px;
+  font-family: arial;
+  margin-left: 25px;
+}
+.main h2{
+  color: darkblue;
+  text-align: center;
+
+
+}
+.gaga{
+  font-family: arial;
+  font-size: 16px;
+  height: auto;
+  margin: auto;
+  width: 100%;
+  padding: auto;
+
+
+}
+
+.tt h3 {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  text-decoration: all;
+  color:black;
+  font-family: italic;
+
+}
+
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-collapse: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color:white;}
+  .fa-instagram {
+  background: purple;
+  color: white;}
